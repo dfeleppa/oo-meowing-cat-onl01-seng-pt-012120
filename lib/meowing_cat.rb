@@ -1,8 +1,8 @@
 class Cat 
-  def initialize
+
+  attr_accessor :name 
+  def meow
     puts "meow!"
   end
-  attr_accessor :name 
-
 
 end
